@@ -1,0 +1,118 @@
+body {
+    font-family: FivoSans-regular;
+}
+
+.header {
+    padding-top: 82px;
+    background-image: url('../../img/header-yoga.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 458px;
+}
+
+.container {
+    width: 1430px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+        font-family: FivoSans-heavy;
+        color: $red-color;
+        padding-left: 9px;
+        font-size: 32px;
+    }
+
+    &__right_content {
+        display: flex;
+        align-items: center;
+    }
+
+    &__list {
+        padding-right: 82px;
+        width: 552px;
+        display: flex;
+    }
+
+    &__list_item {
+        text-decoration: none;
+        font-size: 18px;
+        letter-spacing: 0.6px;
+        color: rgba(28, 32, 86, 0.502);
+
+        &:hover {
+            font-family: FivoSans-bold;
+            color: $red-color;
+        }
+    }
+
+    &__list_item-box {
+        display: flex;
+        margin: 0 34px;
+    }
+
+    &__login {
+        border: 2px solid $red-color;
+        color: $white-color;
+        background-color: $red-color;
+        border-radius: 6px;
+        font-family: FivoSans-regular;
+        font-size: 19px;
+        padding: 9px 44px;
+        border-radius: 21px;
+        transition: all 0.3s;
+    }
+
+    &__login:hover {
+        background-color: transparent;
+        color: $red-color;
+    }
+}
+
+.header__article {
+    padding: 156px 0 0 126px;
+    width: 38%;
+}
+
+.article {
+
+    &__title {
+        font-family: FivoSans-bold;
+        font-size: 50px;
+        line-height: 60px;
+        padding-bottom: 37px;
+    }
+
+    &__subtitle {
+        font-family: FivoSans-light;
+        font-size: 18px;
+        width: 88%;
+        display: block;
+        line-height: 40px;
+        padding-bottom: 60px;
+    }
+
+    &__btn {
+        color: $red-color;
+        border: 1.5px solid $red-color;
+        background: inherit;
+        font-size: 20px;
+        padding: 27px 83px 27px 83px;
+        letter-spacing: 0.5px;
+        line-height: 24px;
+        margin-right: 21px;
+        border-radius: 40px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    &__btn:hover {
+        color: $white-color;
+        background-color: $red-color;
+        box-shadow: -9px 10px 23.52px 0.48px rgba(226,88,91,0.45);
+    }
+}
