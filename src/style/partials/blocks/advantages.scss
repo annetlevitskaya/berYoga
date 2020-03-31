@@ -1,0 +1,72 @@
+.advantages {
+    padding: 0 80px;
+    box-sizing: border-box;
+
+    &__title {
+        font-family: FivoSans-bold;
+        font-size: 48px;
+        margin: 0 auto;
+        width: 45%;
+        text-align: center;
+        position: relative;
+        top: -5px;
+        padding-bottom: 25px;
+    }
+
+    &__subtitle {
+        font-family: FivoSans-light;
+        text-align: center;
+        display: block;
+        width: 56%;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 41px;
+        padding-bottom: 127px;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 50px;
+        box-sizing: border-box;
+    }
+
+    &__item_box {
+        width: 23%;
+    }
+
+    &__item_img {
+        background-image: url('../../img/sprite.png');
+        background-repeat: no-repeat;
+        height: 219px;
+        width: auto;
+        margin-bottom: 90px;
+    }
+
+    &__item_img--time {
+        background-position: 45px;
+    }
+
+    &__item_img--video {
+        background-position: -450px;
+    }
+
+    &__item_img--acces {
+        background-position: -900px;
+    }
+
+    &__item_title {
+        font-family: FivoSans-bold;
+        text-align: center;
+        font-size: 24px;
+        padding-bottom: 28px;
+    }
+
+    &__item_subtitle {
+        font-family: FivoSans-light;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        display: inline-block;
+    }
+}
