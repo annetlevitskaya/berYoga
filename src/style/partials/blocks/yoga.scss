@@ -1,0 +1,159 @@
+.yoga {
+    position: relative;
+
+    &__item_box{
+        display: flex;
+    }
+
+    &__item_box:not(:last-child) {
+        padding-bottom: 292px;
+    }
+
+    &__item_text {
+        padding: 25px 0 0 44px;
+    }
+
+    &__item_title {
+        font-family: FivoSans-bold;
+        font-size: 48px;
+        letter-spacing: 1px;
+        padding-bottom: 82px;
+        line-height: 60px;
+    }
+
+    &__list {
+        padding-left: 74px;
+    }
+
+    &__item_list_title {
+        font-family: FivoSans-bold;
+        font-size: 24px;
+        padding-bottom: 11px;
+    }
+
+    &__item_list_subtitle {
+        font-family: FivoSans-light;
+        font-size: 18px;
+        width: 75%;
+        display: block;
+        line-height: 40px;
+    }
+
+    &__item_list {
+        position: relative;
+    }
+
+    &__item_list::before {
+        content: '';
+        background-image: url('../../img/check.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 34px;
+        height: 25px;
+        position: absolute;
+        top: -6px;
+        left: -51px;
+    }
+
+    &__item_list:not(:last-child) {
+        .yoga__item_list_subtitle {
+            padding-bottom: 45px;
+        }
+    }
+
+    &__item_box--article {
+        padding-right: 22px;
+    }
+
+    &__item_article {
+        padding: 125px 0 0 67px;
+    }
+
+    &__item_article-author {
+        font-family: FivoSans-oblique;
+        font-size: 20px;
+        letter-spacing: 0.1px;
+        padding-bottom: 9px;
+        display: block;
+    }
+
+    &__item_title--article {
+        padding-bottom: 54px;
+    }
+
+    &__article_text {
+        font-family: FivoSans-light;
+        display: block;
+        padding: 0 0 67px 55px;
+        font-size: 18px;
+        width: 58%;
+        line-height: 40px;
+    }
+
+    &__article_btn {
+        margin-left: 55px;
+        border: none;
+        background-color: inherit;
+        color: #3cbef1;
+        font-family: FivoSans-oblique;
+        font-size: 17px;
+        letter-spacing: 0.3px;
+        text-decoration: none;
+    }
+
+    &__item_box--ways {
+        position: relative;
+        left: -68px;
+    }
+
+    &__ways_img {
+        margin-top: 35px;
+    }
+
+    &__ways_text {
+        padding-left: 75px;
+    }
+
+    &__ways_subtitle {
+        font-family: FivoSans-light;
+        padding: 19px 56px 87px 113px;
+        text-indent: 55px;
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    &__article_btn--ways {
+        margin-left: 113px;
+    }
+}
+
+.branch-left {
+    position: absolute;
+    top: 7.5%;
+}
+
+.blot-right {
+    position: absolute;
+    right: 0;
+    top: -4%;
+}
+
+.blot-right2 {
+    position: absolute;
+    right: 0;
+    top: 52.7%;
+    z-index: 1;
+}
+
+.branch-right {
+    position: absolute;
+    right: 0;
+    top: 58.4%;
+    z-index: 2;
+}
+
+.blot-left {
+    position: absolute;
+    top: 51.5%;
+}
